@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="兵庫県竹野港の遊漁船「みよし丸」" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>お問い合わせ | みよし丸</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="img/favicon.png" rel="shortcut icon" />
+    <link href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css" rel="stylesheet" />
+    <link href="css/main_s.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+    <header class="header">
+        <div class="header_inner container">
+            <!-- ロゴ -->
+            <a href="index.html">
+                <img alt="みよし丸ロゴ" class="logo" src="img/logo.png" />
+                みよし丸
+            </a>
+            <!-- ハンバーガーボタン -->
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- ナビゲーション -->
+            <nav class="header_nav">
+                <ul class="nav_list">
+                    <li><a href="index.html#about">船について</a></li>
+                    <li><a href="index.html#blog">BLOG</a></li>
+                    <li><a href="index.html#price">料金</a></li>
+                    <li><a href="index.html#reservation">予約状況</a></li>
+                    <li><a href="index.html#report">釣果情報</a></li>
+                    <li><a href="index.html#access">アクセス</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sub_contact wrapper">
+            <!-- タイトル -->
+            <div class="sub_contact_title">
+                <span class="sub_contact_title_en">
+                    CONTACT
+                </span>
+                <h1>
+                    ご予約・お問い合わせ
+                </h1>
+            </div>
+            <!-- 電話・LINE -->
+            <div class="sub_contact_method">
+                <!-- 電話 -->
+                <div class="sub_contact_method_item">
+                    <h2>電話</h2>
+                    <a class="btn sub_contact_tel" href="tel:0908038xxxx">
+                        090-8038-XXXX
+                    </a>
+                </div>
+                <!-- LINE -->
+                <div class="sub_contact_method_item">
+                    <h2>LINE</h2>
+                    <a class="btn sub_contact_line" href="#">
+                        LINEで問い合わせ
+                    </a>
+                </div>
+            </div>
+            <!-- メール -->
+            <div class="sub_contact_mail">
+                <h2>
+                    メールで問い合わせ
+                </h2>
+                <form action="#" class="sub_contact_form" method="post">
+                    <!-- 名前 -->
+                    <div class="sub_contact_form_item">
+                        <label for="name">
+                            名前
+                        </label>
+                        <input id="name" name="name" required="" type="text" />
+                    </div>
+                    <!-- 電話番号・メールアドレス -->
+                    <div class="sub_contact_form_row">
+                        <div class="sub_contact_form_item">
+                            <label for="tel">
+                                電話番号
+                            </label>
+                            <input id="tel" name="tel" type="tel" />
+                        </div>
+                        <div class="sub_contact_form_item">
+                            <label for="email">
+                                メールアドレス
+                            </label>
+                            <input id="email" name="email" required="" type="email" />
+                        </div>
+                    </div>
+                    <!-- 問い合わせ内容 -->
+                    <div class="sub_contact_form_item">
+                        <label for="message">
+                            問合せ内容
+                        </label>
+                        <textarea id="message" name="message" required=""></textarea>
+                    </div>
+                    <!-- 送信 -->
+                    <div class="sub_contact_submit">
+                        <button class="btn" type="submit">
+                            送信する
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="report_detail_back">
+                <a href="index.html#contact">戻る</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_logo">
+                <img alt="みよし丸ロゴ" src="img/logo.png" />
+                <span>遊漁船 みよし丸</span>
+            </div>
+            <ul class="footer_nav">
+                <li><a href="index.html#about">船について</a></li>
+                <li><a href="index.html#Blog">blog</a></li>
+                <li><a href="index.html#price">料金</a></li>
+                <li><a href="index.html#reservation">予約状況</a></li>
+                <li><a href="index.html#report">釣果情報</a></li>
+                <li><a href="index.html#access">アクセス</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+            <p class="footer_copy">©MIYOSHI MARU. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

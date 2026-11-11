@@ -1,0 +1,70 @@
+@use "mixin" as m;
+
+// footer共通
+.footer,
+.sub_footer {
+    background-color: #0F2537;
+    color: #fff;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+}
+
+// ロゴ
+.footer_logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    img {
+        width: 80px;
+    }
+
+    span {
+        font-size: 20px;
+        letter-spacing: 0.2em;
+    }
+}
+
+// ナビゲーション
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    a {
+        color: #fff;
+    }
+
+    @include m.sp {
+
+        display: none;
+    }
+
+
+}
+
+// コピーライト
+.footer_copy {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+
+    @include m.sp_3 {
+        font-size: 11px;
+    }
+}
+
+// TOPページのfooter
+.footer {
+    padding-block: 60px 40px;
+}
+
+// 下層ページのfooter
+.sub_footer {
+    padding-block: 30px;
+}

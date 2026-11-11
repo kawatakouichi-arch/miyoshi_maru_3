@@ -1,0 +1,76 @@
+@use "mixin" as m;
+
+.report_detail {
+    padding-block: 100px;
+
+    time {
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    &_title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &_main_image {
+        margin-bottom: 30px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    }
+
+    &_contents {
+        font-size: 14px;
+        line-height: 1.8;
+        // margin-bottom: 60px;
+
+        p {
+            margin-bottom: 24px;
+        }
+    }
+
+    &_gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &_image {
+        img {
+            display: block;
+            border-radius: 10px;
+        }
+    }
+
+    &_back {
+        text-align: center;
+        margin-top: 60px;
+
+        a {
+            padding: 16px 64px;
+            background-color: #0F2537;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 14px;
+            letter-spacing: 0.2em;
+
+            transition: opacity 0.5s;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.report_category {
+    padding: 8px 24px;
+    margin-bottom: 10px;
+}

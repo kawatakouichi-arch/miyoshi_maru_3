@@ -1,0 +1,23 @@
+$sp: 870px;
+
+@mixin sp {
+    @media (max-width: $sp) {
+        @content;
+    }
+}
+
+$sp_2: 600px;
+
+@mixin sp_2 {
+    @media (max-width: $sp_2) {
+        @content;
+    }
+}
+
+$sp_3: 452px;
+
+@mixin sp_3 {
+    @media (max-width: $sp_3) {
+        @content;
+    }
+}
